@@ -6,9 +6,24 @@ body {
 }
 
 nav {
+  color: #7C680A;
+  padding: 0.5rem 1.5rem;
   background-color: #FFEEE7;
-  width: 100%;
+  width: 90%;
   height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav p {
+  font-size: 2rem;
+}
+nav .icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
 }
 
 .main-section {

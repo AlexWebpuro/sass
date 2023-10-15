@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: content-box;
   background-color: #FFEEE7;
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -9,7 +10,6 @@ nav {
   color: #7C680A;
   padding: 0.5rem 1.5rem;
   background-color: #FFEEE7;
-  width: 90%;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@ nav {
   align-items: center;
 }
 nav p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 nav .icons {
   list-style: none;
@@ -26,8 +26,42 @@ nav .icons {
   gap: 1.5rem;
 }
 
-.main-section {
-  background-color: #FFEEE7;
+article {
+  width: auto;
+  padding: 0 1.5rem;
+  color: #7C680A;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+article h1 {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+article p {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+article button {
+  background-color: #FA9500;
+  border-style: none;
+  width: 12vw;
+  padding: 1rem 3rem;
+  border-radius: 19px;
+  color: white;
+  font-size: 1rem;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
 }
 
 footer {
